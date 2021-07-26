@@ -16,6 +16,12 @@ axios.get('https://kr.coinness.com/news/1002324')
       
       var obj = JSON.parse(json)
       console.log(obj);
+
+      //1분마다 체크해서 issue_time 중복이 없다면 
+
+
+      //mongo DB에 insert
+
       
       
       //console.log($(this).text().split('newsDetailInfor').text());
